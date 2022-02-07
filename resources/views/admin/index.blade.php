@@ -26,7 +26,6 @@
      @yield('contents')
 </div>
 <!-- container-scroller -->
-
 <!-- plugins:js -->
 <script src="{{asset('admin/vendors/js/vendor.bundle.base.js')}}"></script>
 <!-- endinject -->
