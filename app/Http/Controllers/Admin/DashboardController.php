@@ -7,8 +7,10 @@ use Illuminate\Http\Request;
 
 class DashboardController extends Controller
 {
+
+    private $adminFolder = 'admin.';
     public function index()
     {
-        return view('admin.layouts.app');
+        return view("{$this->adminFolder}index");
     }
 }
