@@ -24,15 +24,7 @@
 </head>
 <body>
 <div class="container-scroller">
-@include('admin.layouts.topbar')
-<!-- partial -->
-    <div class="container-fluid page-body-wrapper">
-        <!-- partial:partials/_sidebar.html -->
-    @include('admin.layouts.navbar')
-    <!-- partial -->
-    @yield('contents')
-    <!-- main-panel ends -->
-    </div>
+     @yield('contents')
 </div>
 <!-- container-scroller -->
 <!-- plugins:js -->

@@ -1,6 +1,8 @@
-@extends('admin.index')
-@section('title', 'Card Selection')
-@section('contents')
+@extends('admin.layouts.app')
+@section('title')
+    Dashboard
+@stop
+@section('mainContent')
 
 <div class="main-panel">
     <div class="content-wrapper">
@@ -658,4 +660,6 @@
     </footer>
     <!-- partial -->
 </div>
-@stop
+
+
+    @stop
