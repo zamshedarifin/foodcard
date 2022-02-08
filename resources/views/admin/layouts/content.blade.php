@@ -1,3 +1,7 @@
+@extends('admin.index')
+@section('title', 'Card Selection')
+@section('contents')
+
 <div class="main-panel">
     <div class="content-wrapper">
         <div class="row">
@@ -654,3 +658,4 @@
     </footer>
     <!-- partial -->
 </div>
+@stop

@@ -17,13 +17,22 @@
     <link rel="stylesheet" type="text/css" href="{{asset('admin/js/select.dataTables.min.css')}}">
     <!-- End plugin css for this page -->
     <!-- inject:css -->
+    <link rel="stylesheet" href="{{asset('admin/css/custom.css')}}">
     <link rel="stylesheet" href="{{asset('admin/css/style.css')}}">
     <!-- endinject -->
     <link rel="shortcut icon" href="{{asset('admin/images/favicon.png')}}" />
 </head>
 <body>
 <div class="container-scroller">
-     @yield('contents')
+@include('admin.layouts.topbar')
+<!-- partial -->
+    <div class="container-fluid page-body-wrapper">
+        <!-- partial:partials/_sidebar.html -->
+    @include('admin.layouts.navbar')
+    <!-- partial -->
+    @yield('contents')
+    <!-- main-panel ends -->
+    </div>
 </div>
 <!-- container-scroller -->
 <!-- plugins:js -->

@@ -1,0 +1,232 @@
+@font-face {
+    font-family: bangla;
+    src: url(../fonts/Ruposhi_Bangla.ttf);
+}
+@font-face {
+    font-family: banglabold;
+    src: url(../fonts/Ruposhi_Bangla_Bold.ttf);
+}
+
+.card-size {
+    width: 155px;
+    height: 245px;
+    border: 1px solid #232860;
+}
+.card-body-area {
+    gap: 15px;
+}
+.card-front-page-content {
+    padding-top: 10px;
+    position: relative;
+}
+.card-front-page-content .bangladesh-logo img {
+    width: 49px;
+    height: 49px;
+    object-fit: cover;
+}
+.bangladesh-logo{
+    text-align: center;
+}
+.card-forn-main-title {
+    text-align: center;
+    margin-top: 6px;
+}
+
+.card-forn-main-title h4 {
+    font-size: 12px;
+    font-family: banglabold;
+    margin-bottom: 2px;
+    color: #1A223D;
+}
+h4.food-ministry-name {
+    color: #DF2127;
+}
+.card-forn-main-title h3 {
+    font-family: 'banglabold';
+    font-size: 14px;
+    margin-bottom: 1px;
+}
+.card-forn-main-title p {
+    font-size: 9px;
+    margin: 0;
+    line-height: 1;
+    font-family: 'banglabold';
+}
+.card-front-footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-right: 2px;
+    gap: 2px;
+}
+
+img.author-image {
+    width: 80px;
+    height: 80px;
+}
+
+.sub-director p {
+    font-size: 9px;
+    margin: 0;
+    line-height: 1.3;
+    text-align: center;
+    font-family: 'banglabold';
+}
+ul.instructions li {
+    font-size: 9px;
+    font-family: 'banglabold';
+    line-height: 1.3;
+    margin-bottom: 1px;
+}
+
+.card-instruction-title {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.card-instruction-title h4 {
+    margin: 0;
+    font-size: 11px;
+    padding: 8px 6px 7px;
+    border: 1px solid #000;
+    display: inline-block;
+    line-height: 0;
+    margin-bottom: 2px;
+    border-radius: 15px;
+    font-family: 'banglabold';
+}
+
+.card-back-page-content {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: relative;
+}
+ul.instructions {
+    margin: 0;
+}
+
+.card-instruction {
+    font-size: 9px;
+    font-family: 'banglabold';
+    padding-bottom: 3px;
+}
+
+.card-instruction p {
+    margin: 0;
+    line-height: 1;
+    font-size: 9px;
+    margin-left: 15px;
+    margin-top: 3px;
+}
+
+.card-instruction span {
+    display: block;
+    margin-left: 15px;
+    line-height: 1;
+    margin-top: 1px;
+    font-family: 'banglabold';
+}
+.card-author-info {
+    font-family: 'banglabold';
+    font-size: 9px;
+    padding-left: 15px;
+    border-top: 2px solid;
+    padding-top: 5px;
+}
+
+.card-author-info p {
+    margin: 0;
+    line-height: 1.1;
+    font-family: 'banglabold';
+    font-size: 9px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.card-author-info p span {
+    width: 43px;
+    font-weight: bold!important;
+}
+.card-footer-area {
+    background: #232860;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 3px 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.footer-content img {
+    width: 14px;
+}
+
+.footer-content p {
+    font-size: 9px;
+    font-family: 'banglabold';
+    margin: 0;
+    color: #fff;
+    line-height: 0;
+    margin-left: 5px;
+}
+.card-front-bar {
+    background: #232860;
+    height: 10px;
+}
+.author-context {
+    display: inline-flex;
+    justify-content: flex-end;
+    width: 100%;
+    flex-flow: column;
+    align-items: flex-end;
+    margin-top: 10px;
+}
+
+.author-context p {
+    font-size: 9px;
+    font-family: 'banglabold';
+    margin: 0;
+    line-height: 1;
+    padding-right: 15px;
+}
+img.signature-image {
+    width: 32px;
+    object-fit: contain;
+}
+
+.sub-director {
+    text-align: center;
+}
+img.signature-image {
+    width: 32px;
+    object-fit: contain;
+}
+
+.sub-director {
+    text-align: center;
+}
+
+.author-context img {
+    margin-right: 20px;
+    margin-bottom: 4px;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #000;
+}
+img.qr-code {
+    width: 38px;
+    object-fit: contain;
+    height: 38px;
+    position: absolute;
+    left: 15px;
+    bottom: 7px;
+    background: #fff;
+    padding: 1px;
+}
