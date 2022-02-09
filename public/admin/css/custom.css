@@ -230,3 +230,222 @@ img.qr-code {
     background: #fff;
     padding: 1px;
 }
+
+/* Front Page CSS*/
+* {
+    margin: 0;
+    box-sizing: revert!important;
+}
+.front-page-area-start {
+    background: #C3F0D1;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.front-page-content-area {
+    width: 50%;
+    background: #fff;
+    min-height: 80vh;
+}
+
+.front-page-content-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #008000;
+    padding: 20px 20px;
+    border-top: 20px solid #00ab35;
+}
+
+.front-page-content-header img {
+    width: 91px;
+    background: #fff;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+.front-page-header-content {
+    text-align: center;
+    color: #fff;
+}
+
+.front-page-header-content a {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 300;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+.front-page-header-content h5 {
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.front-page-header-content h4 {
+    font-size: 21px;
+    font-family: sans-serif;
+    margin: 1px 1px;
+}
+.fornt-page-body {
+    width: 100%;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+fieldset {
+    border: 1px solid #dbe7db;
+    padding: 0 15px;
+}
+
+fieldset legend mark {
+    padding: 5px 15px;
+    text-transform: capitalize;
+    font-size: 13px;
+    background: yellow;
+}
+.front-body-form {
+    padding: 15px;
+}
+
+.front-body-form dl {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.front-body-form dl dt {
+    width: 120px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.front-body-form  dl dd {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+}
+
+.front-body-form  dl dd span {
+    margin-right: 15px;
+    font-weight: 600;
+}
+
+.front-body-form  dl dd input, .front-body-form  dl dd select {
+    padding: 7px;
+    width: 250px;
+    border: 1px solid #CAD6E3;
+    border-radius: 4px;
+    background: #EAF4FF;
+    font-size: 12px;
+    line-height: initial;
+}
+
+.front-body-form  dl dd select {
+    width: 266px;
+}
+
+.front-body-form  dl dd button {
+    margin-left: 5px;
+    padding: 7px 11px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.front-body-form  dl dd button#submit-btn{
+    background: #28a745;
+    color: #fff;
+    border-color: #28a745;
+}
+
+.front-body-form  dl dd button#reset-btn{
+    background: #dc3545;
+    color: #fff;
+    border-color: #dc3545;
+}
+
+.front-body-form  dl dd button#preview-btn{
+    background: #17a2b8;
+    color: #fff;
+    border-color: #17a2b8;
+}
+
+.front-body-form  dl dd button#submit-btn:hover{
+    background: #218838;
+    border-color: #1e7e34;
+}
+
+.front-body-form  dl dd button#reset-btn:hover{
+    background: #c82333;
+    border-color: #bd2130;
+}
+
+.front-body-form  dl dd button#preview-btn:hover{
+    background: #138496;
+    border-color: #117a8b;
+}
+
+.front-body-form  dl:last-child{
+    margin: 0;
+}
+
+.card-information-area, .fornt-page-body form {
+    padding: 25px 17px;
+    width: 47%;
+}
+
+.card-info-body-area ul {
+    padding: 0;
+    margin-left: 18px;
+    margin-top: 15px;
+    list-style: bengali;
+}
+
+.card-info-body-area ul li {
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.card-information-area fieldset.info {
+    background: #ffedef;
+}
+
+fieldset.help-area {
+    margin-top: 23px;
+}
+
+fieldset.help-area a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 16px 28.62px;
+    text-decoration: none;
+    font-size: 12px;
+    background: #00AB35;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.front-page-footer-area {
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    background: #008000;
+    padding: 15px;
+}
+
+.front-body-form dl dt label {
+    margin: 0;
+}
+
+legend {
+    width: auto;
+}
+.front-page-footer-area p {
+    margin: 0;
+}
