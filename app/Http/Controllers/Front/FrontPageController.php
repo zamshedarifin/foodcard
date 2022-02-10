@@ -11,4 +11,8 @@ class FrontPageController extends Controller
     public function index(){
         return view("{$this->frontPage}index");
     }
+
+    public function userPreview(){
+        return view("{$this->frontPage}.preview");
+    }
 }

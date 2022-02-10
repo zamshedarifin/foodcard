@@ -422,13 +422,13 @@ fieldset.help-area {
 
 fieldset.help-area a {
     display: inline-block;
-    margin-top: 15px;
-    padding: 16px 28.62px;
     text-decoration: none;
     font-size: 12px;
     background: #00AB35;
     color: #fff;
-    margin-bottom: 15px;
+    width: 43%;
+    padding: 13px;
+    text-align: center;
 }
 
 .front-page-footer-area {
@@ -448,4 +448,82 @@ legend {
 }
 .front-page-footer-area p {
     margin: 0;
+}
+
+
+/* Preview page css*/
+.preview-modal-area {
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.preview-modal-area:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    background: #000;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.preview-header-content {
+    background: #fff;
+    width: 460px;
+}
+
+.preview-header-content h4 {
+    font-size: 14px;
+    padding: 14px;
+    background: green;
+    color: #fff;
+    text-align: center;
+}
+
+.preview-header-content dl {
+    margin-bottom: 6px;
+}
+
+.preview-header-content dl dd img {
+    width: 100px;
+    height: auto;
+    border: 1px solid #ddd;
+    padding: 4px;
+    border-radius: 4px;
+}
+button{
+    outline: none;
+}
+button#preview-close-btn {
+    padding: 5px 13px;
+    margin-top: 15px;
+    background: red;
+    color: #fff;
+    border: 1px solid red;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 12px;
+    outline: none;
+}
+.front-body-form dl dd span:last-child {
+    font-weight: 400;
+    font-size: 12px;
+}
+.inportant-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+    margin-top: 14px;
 }
