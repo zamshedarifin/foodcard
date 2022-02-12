@@ -7,6 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>@yield('title')</title>
     @stack('style')
+    <style>
+        * {
+            margin: 0;
+            box-sizing: revert!important;
+        }
+    </style>
     <link rel="stylesheet" href="{{asset('admin/css/custom.css')}}">
     <link rel="shortcut icon" href="{{asset('admin/images/favicon.png')}}" />
 </head>
