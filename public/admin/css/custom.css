@@ -8,7 +8,7 @@
 }
 
 .card-size {
-    width: 155px;
+    width: 154px;
     height: 245px;
     border: 1px solid #232860;
 }
@@ -29,7 +29,7 @@
 }
 .card-forn-main-title {
     text-align: center;
-    margin-top: 6px;
+    margin-top: 4px;
 }
 
 .card-forn-main-title h4 {
@@ -289,6 +289,72 @@ img.qr-code {
 
 .second-card-back, .second-card-front, .second-card-back .card-author-info {
     border-color: #1658A8;
+}
+
+/* Third card area css*/
+.third-card-back .card-footer-area {
+    justify-content: center;
+}
+.third-card-back, .third-card-front {
+    border-color: #186AA0;
+}
+
+.third-card-back .card-instruction-title {
+    margin-top: 2px;
+    margin-bottom: 7px;
+}
+
+.third-card-back .card-instruction-title h4 {
+    font-size: 10px;
+    color: #fff;
+    padding: 7px 6px 5px 6px;
+    line-height: 0;
+    border-color: #fff;
+}
+
+.third-card-back .card-footer-area {
+    background: transparent;
+}
+
+.third-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.third-card-header img {
+    width: 35px;
+    height: 35px;
+    margin-right: 4px;
+}
+
+.third-card-header-content h4 {
+    font-size: 11px;
+    font-family: 'banglabold';
+    line-height: 0.2;
+    color: #fff;
+}
+
+.third-card-header-content {
+    width: 100%;
+    margin-top: 6px;
+}
+.third-card-front {
+    padding: 5px;
+}
+.third-card-front .card-forn-main-title img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 4px;
+}
+
+.third-card-front .card-forn-main-title h4 {
+    margin-bottom: 0;
+}
+.third-card-front img.qr-code {
+    position: relative;
+    left: 0;
+    bottom: 0;
 }
 
 /* Front Page CSS*/
