@@ -1,5 +1,28 @@
 @extends('admin.layouts.app')
 @section('title', 'Card Selection')
+
+@push('style')
+    <style>
+        .card-back-page-content{
+            position: relative;
+        }
+        .card-back-page-content:after{
+            content: ' ';
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            width: 160px;
+            height: 160px;
+            opacity: 0.4;
+            background-image: url(http://127.0.0.1:8000/admin/images/logo/bg-none.png);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: contain;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+@endpush
+
 @section('contents')
 <div class="row">
     {{--First card area start--}}
@@ -30,7 +53,7 @@
 
                 </div>
             </div>
-            <div class="card-back-page-content card-size" style="background-image: url({{asset('admin/images/logo/bg-none.png')}})">
+            <div class="card-back-page-content card-size">
                <div class="card-instruction">
                    <div class="card-instruction-title">
                        <h4>নির্দেশাবলী</h4>
@@ -93,7 +116,7 @@
                     </div>
                 </div>
             </div>
-            <div class="second-card-back card-back-page-content card-size" style="background-image: url({{asset('admin/images/logo/bg-none.png')}})">
+            <div class="second-card-back card-back-page-content card-size">
                 <div class="card-instruction">
                     <div class="card-instruction-title">
                         <h4>নির্দেশাবলী</h4>
@@ -160,6 +183,7 @@
                 </div>
             </div>
             <div class="third-card-back card-back-page-content card-size" style="background-image: url({{asset('admin/images/card/third-card-back.png')}})">
+
                 <div class="card-instruction">
                     <div class="card-instruction-title">
                         <h4>নির্দেশাবলী</h4>
