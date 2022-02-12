@@ -115,7 +115,7 @@
 
                             <dl>
                                 <dt><label for="phone">মোবাইল নং.</label></dt>
-                                <dd><span>:</span> <div class="phone-input-field"><span>+880</span><input type="text" name="phone" id="phone" placeholder="১২৩৪৫৬৭৮৯০"></div></dd>
+                                <dd><span>:</span> <div class="phone-input-field"><span>+৮৮০</span><input type="text" name="phone" id="phone" placeholder="১২৩৪৫৬৭৮৯০"></div></dd>
                             </dl>
 
                             <dl>

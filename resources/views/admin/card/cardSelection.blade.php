@@ -45,6 +45,7 @@
                    <span>ফোন: +৮৮ ০২-৪১০৫০৭২৩</span>
                </div>
                 <div class="card-author-info">
+                    <p><span>এনআইডি</span>: ১৭৪৫৫০৭০৭৫</p>
                     <p><span>মোবাইল</span>: +৮৮০ ১৭৪৫৫০৭০৭৫</p>
                     <p><span>জন্ম তারিখ</span>: ০৬/০৭/১৯৯৫</p>
                     <p><span>ব্লাড গ্রুপ</span>: O+</p>
@@ -107,6 +108,7 @@
                     <span>ফোন: +৮৮ ০২-৪১০৫০৭২৩</span>
                 </div>
                 <div class="card-author-info">
+                    <p><span>এনআইডি</span>: ১৭৪৫৫০৭০৭৫</p>
                     <p><span>মোবাইল</span>: +৮৮০ ১৭৪৫৫০৭০৭৫</p>
                     <p><span>জন্ম তারিখ</span>: ০৬/০৭/১৯৯৫</p>
                     <p><span>ব্লাড গ্রুপ</span>: O+</p>
