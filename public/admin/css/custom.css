@@ -584,3 +584,25 @@ button#preview-close-btn {
     margin-bottom: 15px;
     margin-top: 14px;
 }
+
+.phone-input-field {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.phone-input-field span {
+    margin: 0;
+    font-weight: 300!important;
+    font-size: 12px;
+    background: #EAF4FF;
+    padding: 5px 8px;
+    margin-right: 0!important;
+    border: 1px solid #CAD6E3;
+}
+
+.phone-input-field input {
+    width: 208px!important;
+    border-radius: 0 3px 3px 0!important;
+    border-left: 0!important;
+}

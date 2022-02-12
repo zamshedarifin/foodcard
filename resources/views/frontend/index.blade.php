@@ -109,8 +109,13 @@
                             </dl>
 
                             <dl>
-                                <dt><label for="phone">মোবাইল নং</label></dt>
-                                <dd><span>:</span><input type="text" name="phone" id="phone" placeholder="০১২৩৪৫৬৭৮৯"></dd>
+                                <dt><label for="phone">এনআইডি নং.</label></dt>
+                                <dd><span>:</span><input type="text" name="nid" id="nid" placeholder="০১২৩৪৫৬৭৮৯"></dd>
+                            </dl>
+
+                            <dl>
+                                <dt><label for="phone">মোবাইল নং.</label></dt>
+                                <dd><span>:</span> <div class="phone-input-field"><span>+880</span><input type="text" name="phone" id="phone" placeholder="১২৩৪৫৬৭৮৯০"></div></dd>
                             </dl>
 
                             <dl>
@@ -213,7 +218,11 @@
                         <dd><span>:</span> <span id="p-blood-group"></span></dd>
                     </dl>
                     <dl>
-                        <dt>মোবাইল নং</dt>
+                        <dt>এনআইডি নং.</dt>
+                        <dd><span>:</span> <span id="p-nid"></span></dd>
+                    </dl>
+                    <dl>
+                        <dt>মোবাইল নং.</dt>
                         <dd><span>:</span> <span id="p-phone"></span></dd>
                     </dl>
                     <dl>
@@ -251,6 +260,7 @@
                     "office_place"  : $('#office_place').find(':selected').data('office-place'),
                     "office_name"   : $('#office_name').find(':selected').data('office-name'),
                     "blood_group"   : $('#blood_group').find(':selected').data('blood-name'),
+                    "nid"           : $('#nid').val(),
                     "phone"         : $('#phone').val(),
                     "dob"           : $('#dob').val(),
                 };
@@ -260,6 +270,7 @@
               $('#p-office').html(data['office_place']);
               $('#p-place').html(data['office_name']);
               $('#p-blood-group').html(data['blood_group']);
+              $('#p-nid').html(data['nid']);
               $('#p-phone').html(data['phone']);
               $('#p-dob').html(data['dob']);
 
